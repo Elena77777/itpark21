@@ -11,9 +11,11 @@ public class ThirdProgram1 {
 
         if (value < 0) {
             return -1;
-        } else if (value! = 0) {
-            for (int i = 1; i <= value; i + +) {
-                result * = i;
+        } else if (value ==0)
+         return 0;
+            else {
+            for (int i = 1; i <= value; i++) {
+                result*=i;
             }
 
             return result;
